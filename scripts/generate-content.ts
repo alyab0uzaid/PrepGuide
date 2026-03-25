@@ -127,8 +127,10 @@ function htmlToMdx(rawHtml: string): string {
       case "h5":
       case "h6": {
         // Strip [fs-toc-hN] markers whether bare or wrapped in bold (**...**)
+        // Also strip any stray leading/trailing ** left after marker removal
         const cleaned = innerTrimmed
           .replace(/\*{0,2}\[fs-toc-h\d\]\*{0,2}/g, "")
+          .replace(/^\*+|\*+$/g, "")
           .trim();
         const level = parseInt(tag[1]);
         return "\n" + "#".repeat(level) + " " + cleaned + "\n\n";
@@ -309,13 +311,28 @@ function generateTopics(subtopicMap: Record<string, string[]>) {
     currentSlug = slug;
     const lessonMdx = htmlToMdx(lessonHtml);
 
+    // If CSV has no subtopics, derive from the lesson's top-level headings.
+    // Find the shallowest heading level used, then collect only those.
+    let resolvedSubtopics = subtopics;
+    if (!resolvedSubtopics.length && lessonMdx) {
+      const headingLines = lessonMdx.split("\n").filter((l) => /^#{1,6} /.test(l));
+      if (headingLines.length) {
+        const minLevel = Math.min(...headingLines.map((l) => l.match(/^(#+)/)![1].length));
+        const prefix = "#".repeat(minLevel) + " ";
+        resolvedSubtopics = headingLines
+          .filter((l) => l.startsWith(prefix))
+          .map((l) => l.replace(/^#+\s+/, "").trim())
+          .filter(Boolean);
+      }
+    }
+
     const frontmatter = [
       "---",
       `title: "${name.replace(/"/g, '\\"')}"`,
       `slug: "${slug}"`,
       `area: "${area}"`,
       `order: ${order || 0}`,
-      subtopics.length ? `subtopics:\n${subtopics.map((s) => `  - "${s.replace(/"/g, '\\"')}"`).join("\n")}` : "subtopics: []",
+      resolvedSubtopics.length ? `subtopics:\n${resolvedSubtopics.map((s) => `  - "${s.replace(/"/g, '\\"')}"`).join("\n")}` : "subtopics: []",
       video ? `video: "${video}"` : "",
       practiceSheet ? `practiceSheet: "${practiceSheet}"` : "",
       answerKey ? `answerKey: "${answerKey}"` : "",
