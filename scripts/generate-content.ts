@@ -378,14 +378,22 @@ function generateMathIntros() {
 
 // ─── Build subtopic map ───────────────────────────────────────────────────────
 function buildSubtopicMap(): Record<string, string[]> {
-  const rows = readCsv("PrepGuide - Subtopics - 6684077f11d3f5a17ab9e1cb.csv");
+  // Build slug → name lookup from the Subtopics CSV
+  const subtopicRows = readCsv("PrepGuide - Subtopics - 6684077f11d3f5a17ab9e1cb.csv");
+  const bySlug: Record<string, string> = {};
+  for (const r of subtopicRows) {
+    if (r["Archived"] === "true" || !r["Name"] || !r["Slug"]) continue;
+    bySlug[r["Slug"]] = r["Name"];
+  }
+
+  // Use the Topics CSV "Subtopics" column (semicolon-separated slugs) to build the map
+  const topicRows = readCsv("PrepGuide - Topics - 6684076278f6355301e37191.csv");
   const map: Record<string, string[]> = {};
-  for (const r of rows) {
-    if (r["Archived"] === "true" || !r["Name"]) continue;
-    const parent = r["Parent topic"];
-    if (!parent) continue;
-    if (!map[parent]) map[parent] = [];
-    map[parent].push(r["Name"]);
+  for (const r of topicRows) {
+    if (r["Archived"] === "true" || !r["Slug"] || !r["Subtopics"]) continue;
+    const slugs = r["Subtopics"].split(";").map((s: string) => s.trim()).filter(Boolean);
+    const names = slugs.map((s: string) => bySlug[s]).filter(Boolean);
+    if (names.length) map[r["Slug"]] = names;
   }
   return map;
 }
