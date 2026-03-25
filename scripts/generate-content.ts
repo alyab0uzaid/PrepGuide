@@ -115,15 +115,12 @@ function htmlToMdx(rawHtml: string): string {
       case "h4":
       case "h5":
       case "h6": {
-        const match = innerTrimmed.match(/^\[fs-toc-h(\d)\](.*)/);
-        if (match) {
-          const level = parseInt(match[1]);
-          const title = match[2].trim();
-          return "\n" + "#".repeat(level) + " " + title + "\n\n";
-        }
-        // No marker — use tag level as-is
+        // Strip [fs-toc-hN] markers whether bare or wrapped in bold (**...**)
+        const cleaned = innerTrimmed
+          .replace(/\*{0,2}\[fs-toc-h\d\]\*{0,2}/g, "")
+          .trim();
         const level = parseInt(tag[1]);
-        return "\n" + "#".repeat(level) + " " + innerTrimmed + "\n\n";
+        return "\n" + "#".repeat(level) + " " + cleaned + "\n\n";
       }
 
       // ── Paragraphs ────────────────────────────────────────────────────────
@@ -220,6 +217,9 @@ function htmlToMdx(rawHtml: string): string {
   $("body").children().each((_, el) => {
     mdx += processNode(el as any);
   });
+
+  // Strip any remaining [fs-toc-hN] markers (e.g. in bold paragraphs used as fake headings)
+  mdx = mdx.replace(/\[fs-toc-h\d\]/g, "");
 
   // Collapse 3+ newlines to 2
   mdx = mdx.replace(/\n{3,}/g, "\n\n").trim();
