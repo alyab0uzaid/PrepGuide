@@ -1,0 +1,433 @@
+---
+title: "Circles"
+slug: "circles"
+area: "Additional Topics in Math"
+order: 17
+subtopics: []
+practiceSheet: "https://cdn.prod.website-files.com/6683ff9ee7b6a46f898ebe87/66b69d845963dc63dcfd9f96_circles%20wksht.pdf"
+answerKey: "https://cdn.prod.website-files.com/6683ff9ee7b6a46f898ebe87/66b69d8a4c6801c451b3a32b_circles%20answers.pdf"
+---
+
+## Introduction
+
+#### Diameter
+
+The diameter of a circle is a line that goes from side to side and passes through the center of the circle.
+
+<Figure src="/diagrams/circles-1.svg" />
+
+#### Radius
+
+The radius of a circle is a line between the center of the circle and any point on the circle itself.
+
+<Figure src="/diagrams/circles-2.svg" />
+
+#### Central angle
+
+A central angle is the angle that's created by drawing two radii to different endpoints.
+
+<Figure src="/diagrams/circles-3.svg" />
+
+#### Circumference
+
+The circumference is the distance around the circle.
+
+#### Arc
+
+An arc of a circle is simply a **section of the circumference** of a circle. (Note that a minor arc is the arc of two points less than 180 degrees, and the major arc is the one that encompasses more than 180 degrees).
+
+#### Sector
+
+A sector of a circle is a **section of the area** of a circle.
+
+## Circumference and Area
+
+The circumference of a circle can be found as long as we have the diameter/radius of the circle. The formula is $2\pi r$.
+
+Radius: 4 cm
+
+Circumference: $2\pi(4) = 8\pi$
+
+Radius: 5.5 cm
+
+Circumference: $2\pi(5.5) = 11\pi$
+
+The area is also found with just the radius using the formula $\pi r^2$.
+
+Radius: 4 cm
+
+Area: $\pi(4)^2 = 16\pi$
+
+## Radians
+
+While most people taking this test are much more familiar with the measure of degrees for angles, there's another way they are measured that commonly shows up on the SAT (and future math classes): radians.
+
+If you’re interested in where the measure came from, or exactly what it means, click [here](https://www.youtube.com/watch?v=cgPYLJ-s5II). But, for the SAT at least, all you need to know is how to deal with them.
+
+[Watch this video for more explanation.](ADD VID)
+
+As you might know, the central angle of a circle is 360 degrees.
+
+The central angle in radians though is $2\pi$.
+
+Knowing this, we can set up a ratio in order to convert from degrees to radians and radians to degrees.
+
+$$
+\frac{\text{radians}}{\text{degrees}} = \frac{2\pi}{360} = \frac{\pi}{180}
+$$
+
+Now, using this, you can set up a proportion with our $\frac{\pi}{180}$ ratio, and with whatever you’re trying to convert to get an answer. Let's say we want to convert 45 degrees into radians:
+
+$$
+45^\circ \cdot \frac{\pi}{180^\circ} = \frac{45\pi}{180} = \frac{\pi}{4}
+$$
+
+Let's try to convert $\frac{5\pi}{6}$ into degrees:
+
+$$
+\frac{5\pi}{6} \cdot \frac{180^\circ}{\pi}
+$$
+
+$$
+\frac{5 \cdot 180}{6} = 150^\circ
+$$
+
+How do you decide whether to put 180 or $\pi$ on the top of our conversion ratio? All you need to remember is that either $\pi$ cancels out when converting to degrees, or degrees cancel out when converting to radians. If you're given a radian, $\pi$ is in the top of the fraction, meaning in your $\frac{180}{\pi}$ ratio, $\pi$ has to be on the bottom in order for them to cancel out, and vice versa.
+
+Watch [this video](https://www.youtube.com/watch?v=kweJN6ywNBI) for further explanation.
+
+## Circle Equation
+
+On the newer digital SAT, the equation of the circle is by far the most tested topic when it comes to circles, so knowing and memorizing it is a must. The standard equation of a circle is:
+
+$$
+(x - h)^2 + (y - k)^2 = r^2
+$$
+
+Where $(h, k)$ is the center of the circle, and $r$ is the radius. Refer to the example equation below:
+
+$$
+(x - 11)^2 + (y + 8)^2 = 144
+$$
+
+To get the value of the center, simply take the OPPOSITE sign of your $h$ and $k$ values. Since in the above equation our $x$ expression is $(x - 11)^2$, the x-coordinate of our center is 11.
+
+In the second half of the equation, we’re given $(y + 8)^2$, so the y-coordinate of our center is -8.
+
+Therefore, the center of the circle equation shown above is located at $(11, -8)$.
+
+Finding the radius is just as simple. Since 144 corresponds to $r^2$, we can then set up the equation $r^2 = 144$, which gives us a radius of 12.
+
+## Finding Radius Using Center and an Endpoint
+
+Let's look at this real SAT problem to explain this one.
+
+First, recall the original circle equation: $(x - h)^2 + (y - k)^2 = r^2$.
+
+Since it's asking me to write an equation for the circle they describe above, I'll fill in what I already know. It tells me that the center is $(0, 4)$, so my updated circle equation is:
+
+$$
+(x)^2 + (y - 4)^2 = r^2
+$$
+
+Now, we have to find the radius. An endpoint is simply a point that lies on the edge of a circle. Meaning, any line that starts at the center and meets with an endpoint is a radius.
+
+So, to find the radius, we must find the distance between the center $(0,4)$ and the endpoint $(4/3, 5)$.
+
+There are multiple ways to do this, but the easiest is with Desmos. To find the distance between two points using Desmos, type in “distance” followed by your two points.
+
+<Desmos id="1uuhaspgce" />
+
+Now we know that our radius is equal to $5/3$. Don't be too quick to choose (C) though. Remember, the right side of the circle equation is $r^2$, not just $r$ (radius). So we have to square our current value.
+
+Putting everything together, our final circle equation is:
+
+$$
+(x)^2 + (y - 4)^2 = \frac{25}{9}
+$$
+
+or answer choice (A).
+
+## Finding Center/Radius in an Imperfect Equation
+
+While you’ll usually be given an equation of a circle in standard form, it's possible to be given an equation in an imperfect form. In this form, shown below, you can't immediately identify the center and radius just by looking at it, but, using Desmos, it's not much harder.
+
+Many students may pick answer choice A, they see that -20 and -16 are the opposite of what is shown in the equation, but be careful, you cannot do this when the equation is not in standard form.
+
+There are two ways to approach this problem: convert the equation back to standard form (harder), or plug it into Desmos and find the center (much easier).
+
+The first step is to plug your equation into Desmos and click on the outline of the circle. Doing this should highlight a couple of points.
+
+<Desmos id="ttl0ei8io6" />
+
+You'll see that the y-intercepts, x-intercepts, and the top & bottom of the circle are highlighted.
+
+Selecting the top and bottom of the circle, we see that the x-value of both points is -10. This tells us that -10 is the x-value of the center.
+
+To find the y-value, you have to find the average between the highest and lowest points of the circle, as the center between these two points is what we’re looking for.
+
+$$
+\frac{4 + (-20)}{2} = -
+$$
+
+The center y-value is -8, making the center of this circle $(-10, -8)$, or answer choice B.
+
+In this specific problem, you could have approximated to see where the center was and choose the closest answer choice. However, if a question is free response and asks you to find the x or y coordinate of the center, you must know how to get an exact answer.
+
+## Finding Radius Using Desmos
+
+While the above question doesn’t ask us to find the radius, let's use it as an example for simplicity's sake.
+
+Since the points highlighted on our circle above are the very top and bottom of the circle, that means that the distance between them is a diameter.
+
+All you have to do is find the distance between the two y coordinates which is done by subtracting.
+
+$$
+4 - (-20) = 24
+$$
+
+The diameter of this circle is 24 units. If you recall, the radius is simply half the diameter, so the radius of this circle is 12 units.
+
+#### Alternative Way
+
+I highly recommend using Desmos whenever you can, but for the intellectually curious, this is how you could completely convert the equation from an imperfect form to standard form.
+
+In the question above, we’re given an equation of a circle that isn't in standard circle equation form. Sometimes you’ll be asked to find the radius, sometimes the center.
+
+First step is to take the equation and split it up in terms of its x and y components. Then, we will convert each section on its own. Let's start with the x side.
+
+$$
+x^2 + 20x
+$$
+
+If you notice, this is just a quadratic in standard form ($ax^2 + bx + c$) where $c$ is zero.
+
+We want to convert it into:
+
+$$
+(x - h)^2
+$$
+
+Which is a quadratic in vertex form (without the ‘k’) value. So, all we’re doing here is converting a standard form quadratic into a vertex form quadratic.
+
+If you aren't familiar with converting from either form, click [here](https://www.youtube.com/watch?v=pf9LkX8hpTQ).
+
+A useful “formula” that you can use though is:
+
+$$
+(x + \frac{b}{2})^2 + c - (\frac{b}{2})^2
+$$
+
+Note: this only works when the $a$ value in standard form is one (which is usually true for these types of problems).
+
+Plugging in our given values we get:
+
+$$
+(x + 10)^2 + 0 - (10)^2
+$$
+
+$$
+(x + 10)^2 - 100
+$$
+
+This is our new form of the x-side of our circle equation. Let's do the same thing with the y-side.
+
+$$
+y^2 + 16y
+$$
+
+$$
+(y + 8)^2 + 0 - (8)^2
+$$
+
+$$
+(y + 8)^2  - 64
+$$
+
+When we put both the y and x components of this equation together we end up with:
+
+$$
+(x + 10)^2 - 100 + (y + 8)^2 - 64 = -20
+$$
+
+This is incredibly close to our standard circle equation form, but we have two numbers/constants (100 and 64) on the left side that should not be there. Doing this, our final equation in standard form is:
+
+$$
+(x + 10)^2 + (y + 8)^2 = 144
+$$
+
+Meaning our center is at $(-10, -8)$ and the radius is 12. The original question is asking for our center, so the answer is B.
+
+## Arcs and Sectors
+
+#### Measure of Arc
+
+There are two ways that an arc can be formed on the SAT, either via a central angle or an inscribed angle.
+
+The measure of a central angle will always be equal to the arc it creates.
+
+<Figure src="/diagrams/circles-4.svg" />
+
+Central angle $O$ here is 50 degrees, meaning that the arc $AB$ has a measure of 50 degrees. This degree measurement will prove useful in calculations.
+
+#### Inscribed Angle
+
+An inscribed angle is an angle in which the vertex lies on the circumference of the circle. The measure of an inscribed angle will always be half of the arc it creates.
+
+<Figure src="/diagrams/circles-5.svg" />
+
+In this case, angle $O$ is 53 degrees making arc $CD$ have a measure of 106 degrees.
+
+Inscribed angles show up much less on the test than central angles, but they are still important to know. Calculating the length of an arc created by an inscribed angle is the exact same as one created by a central angle, just remember to double the inscribed angle to get the true measure of your arc.
+
+### Arcs
+
+Arcs are a fraction of a circle's circumference. If given a central angle in radians, the arc length is given by radius times theta, where theta equals the angle in radians.
+
+$$
+L = r\theta
+$$
+
+For example:
+
+If an arc is created by the central angle $\frac{7\pi}{12}$ in a circle with radius of 5, then the arc length would be:
+
+$$
+L = (5)\left(\frac{7\pi}{12}\right)
+$$
+
+$$
+L = \frac{35\pi}{12}
+$$
+
+When an angle is given in degrees, it's a bit more complicated but still fairly easy. Remember, an arc is just a fraction of the full circumference, meaning we can use ratios to come to an answer.
+
+If given a central angle of $\theta$, then $\frac{\theta}{360}$ will be the ratio of the arc to the full circle. For example, if you’re given a central angle of 45 degrees, insert it into the ratio $\frac{\theta}{360}$ to get:
+
+$$
+\frac{45}{360} = \frac{1}{8}
+$$
+
+<Figure src="/diagrams/circles-6.svg" />
+
+Meaning that a central angle of 45 degrees is $\frac{1}{8}$ of a full circle.
+
+To find the length of the arc, multiply the fraction by the circumference to get the length. This gives you the formula:
+
+$$
+L = \frac{\theta}{360}C
+$$
+
+This can be expanded out too:
+
+$$
+L = \frac{\theta}{360}(2\pi r)
+$$
+
+Let's look at some practice real SAT problems:
+
+Instead of asking us what the arc length is, they ask us what the central angle is. Don't be scared though, we can still employ the exact same methods, we're simply solving for a different variable.
+
+We’re given an arc length and a radius and all we have to find is a central angle, so let's write out our formula and fill in what we have.
+
+**Note:** the fact that the image above is a semi-circle does NOT change any of the math, if a second half of this circle was drawn on the bottom, the arc length and radius would remain the exact same.
+
+$$
+L = \frac{\theta}{360}(2\pi r)
+$$
+
+$$
+3 = \frac{\theta}{360}(2\pi 5)
+$$
+
+With everything written in math form, it turns into a simple algebra problem with only one variable missing. Rearranging and solving for $\theta$ will get us to our answer.
+
+$$
+3 = \frac{\theta}{360}(2 \cdot 5\pi)
+$$
+
+$$
+3 = \frac{\theta 10\pi}{360}
+$$
+
+$$
+1080 = \theta \cdot 10\pi
+$$
+
+$$
+\theta = \frac{1080}{10\pi}
+$$
+
+$$
+\theta = 108
+$$
+
+### Sectors
+
+While it is possible to be tested on sectors, it's much less common and has shown up very rarely. Luckily for you, the concepts and math are basically the exact same compared to arcs.
+
+As you may recall, an arc is a fraction of a circle’s circumference. On the other hand, a sector is a fraction of a circle’s area.
+
+This changes our formula from:
+
+$$
+L = \frac{\theta}{360}(2\pi r)
+$$
+
+$$
+\text {to:}
+$$
+
+$$
+A = \frac{\theta}{360}(\pi r^2)
+$$
+
+All that really changed in the formula was the last expression, from $2\pi r$, the circumference formula, to $\pi r^2$, the area formula.
+
+Knowing this, you don't really need to ‘memorize’ any of these formulas, you instead should understand where each part came from and basically reconstruct them during the test. This will decrease the chance of you freezing up during the test and forgetting all your formulas.
+
+## Inscribed Square
+
+An inscribed square is a square that fits ‘perfectly’ within a circle, as in each corner of the square is lined up with the circumference of the circle.
+
+<Figure src="/diagrams/circles-7.svg" />
+
+The most important information you need to know is that if you drew a line down the diagonal of the square, splitting it into 45-45-90 triangles, The line will also be equal to the diameter of the circle.
+
+<Figure src="/diagrams/circles-8.svg" />
+
+On the SAT, they may give you the radius/diameter of the circle and ask you to solve for the area of the square. In order to do this you have to split the square into two triangles in which the hypotenuse of those triangles is the same length as the diameter of the circle. If you’re given diameter, you can solve for one of the side lengths using knowledge of the 45-45-90 triangles. Take a look at the example below and try to find the area of the square.
+
+<Figure src="/diagrams/circles-9.svg" />
+
+*In the figure above, a square is inscribed within a circle with a radius of $4\sqrt{2}$ cm. What is the area of the square?*
+
+First step here would be doubling the radius in order to get the diameter. This allows us to create two right triangles and find the side lengths.
+
+<Figure src="/diagrams/circles-10.svg" />
+
+Now that we have diameter, which is also the hypotenuse of the triangle we created, we can begin to find the side lengths.
+
+If you forgot from the last lesson, the ratio of a 45-45-90 triangle is 1:1:$\sqrt{2}$, or can be written as $x:x:x\sqrt{2}$ where the legs of the triangle are labeled $x$, and the hypotenuse is labeled $x\sqrt{2}$. Since we’re solving for $x$, and have the value of $x\sqrt{2}$, we can find $x$ by setting up a small equation.
+
+$$
+8\sqrt{2} = x\sqrt{2}
+$$
+
+$$
+8 = x
+$$
+
+Meaning that the leg lengths (which correspond to the square side lengths) are equal to 8.
+
+The Final step would be to simply find the area, which would be $l \cdot w$ or $s^2$ in the case of a square.
+
+$$
+A = 8^2
+$$
+
+$$
+A = 64
+$$
+
+So the area of the square above is $64 \text{ cm}^2$.

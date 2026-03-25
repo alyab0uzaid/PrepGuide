@@ -1,0 +1,36 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="609.51" y="216.73" width="3.75" height="35.07" transform="translate(102.81 646.6) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="604.32" y="225.73" width="3.75" height="35.07" transform="translate(92.42 646.6) rotate(-60)"></rect>
+ &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="591.26" y="348.01" width="35.07" height="3.75" transform="translate(-93.38 351.55) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="596.45" y="357" width="35.07" height="3.75" transform="translate(-97.18 355.35) rotate(-30.02)"></rect>
+ &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;<path class="cls-2" d="M808.85,433.86h-157.7l-78.85-136.58,78.85-136.58h157.7l78.85,136.58-78.85,136.58ZM655.48,426.34h149.03l74.52-129.06-74.52-129.06h-149.03l-74.51,129.06,74.51,129.06Z"></path>
+ &nbsp; &nbsp;<rect class="cls-2" x="722.93" y="147.64" width="3.76" height="35.07"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="733.31" y="147.64" width="3.76" height="35.07"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="717.74" y="412.57" width="3.76" height="35.07"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="728.12" y="412.57" width="3.76" height="35.07"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="826.87" y="227.9" width="35.07" height="3.75" transform="translate(-1.67 453.32) rotate(-30.02)"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="832.07" y="236.89" width="35.07" height="3.75" transform="translate(-5.47 457.13) rotate(-30.02)"></rect>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="852.86" y="328.83" width="3.75" height="35.07" transform="translate(127.4 913.39) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="847.67" y="337.82" width="3.75" height="35.07" transform="translate(117.02 913.39) rotate(-60)"></rect>
+ &nbsp; &nbsp;</g>
+ &nbsp;</g>
+</svg>

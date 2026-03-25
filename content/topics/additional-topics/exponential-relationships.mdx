@@ -1,0 +1,319 @@
+---
+title: "Exponential Relationships"
+slug: "exponential-relationships"
+area: "Passport to Advanced Math"
+order: 7
+subtopics: []
+---
+
+## Exponential Relationships
+
+Exponential relationships are a small subset of exponents on the SAT, but are still incredibly important, and you are almost bound to get a question or two asking about it. If you aren't completely familiar with the whole concept of exponential growth/decay, check out the video below for an introduction.
+
+## Exponential Growth and Decay
+
+The standard form equation for exponential growth is:
+
+$$
+y = a \cdot b^x
+$$
+
+Though, in many cases this is expanded to:
+
+$$
+y = a \cdot (1 + r)^t
+$$
+
+Where:
+
+• $a$ is the initial amount you start with.
+
+• $r$ is the rate, or simply put, the percent at which your sample increases/decreases.
+
+• $t$ is time, usually measured in years.
+
+Let's go through an example to explore this equation further.
+
+#### Example 1
+
+If a pack of wolves that starts off with 15 and increases by 40% each year, how many wolves there will be in 4 years? (assuming that none die)
+
+The best thing we could do here is write an equation. Since the situation is an exponential relationship rather than linear, we can use the exponential growth equation.
+
+We can start filling in what we know from the question. Firstly, we’re told that we begin with 15 wolves, this will be our $a$ value:
+
+$$
+y = 15(1 + r)^t
+$$
+
+Next is our rate, which is the percent increase/decrease of the population. In this case, the population is increasing, so we will *add* our percentage to 1. Be careful though, you **ALWAYS** want to convert your percentages into decimals before using them in any calculations. 40% is equivalent to 0.4, so let's input that into our equation.
+
+$$
+y = 15(1 + 0.4)^t
+$$
+
+$$
+y = 15(1.4)^t
+$$
+
+We now have a final equation for figuring out how many wolves will be in the pack after $t$ years pass.
+
+If we want to know how many wolves there will be after 4 years, input 4 for $t$ in the equation:
+
+$$
+y = 15(1.4)^4
+$$
+
+$$
+y \approx**57** \text{ wolves}
+$$
+
+#### Example with Decay
+
+Now, what if after 4 years, in which there are now 57 wolves, a disease spreads and the population of the decreases by 10% every year? How many wolves are left after 20 months?
+
+First, we have to change the rate part of the equation. The population is decreasing, meaning we have to *subtract* 10 percent rather than add.
+
+$$
+y = 57(1 - 0.1)^t
+$$
+
+$$
+y = 57(0.9)^t
+$$
+
+***QUICK NOTE:***If the value within the parenthesis is greater than 1, it depicts exponential growth. If it's less than 1, it depicts exponential decay.
+
+The first half of the equation is done, but now we have to tackle $t$ (time). The question wants us to find how many wolves are left after 20 months. However, the rate of decay is given in years.
+
+Recall, “The population of the wolves begins to decrease by 10% every year”.
+
+So, if we plug in 20 for $t$, the value will be the number of wolves left after 20 years, not months. How do we solve this?
+
+In our equation, $t$ represents the unit of years. We want a way to replace $t$ (years) with $m$ (months). This can be done by creating a ratio between the given rate unit (which in this case is years) and your desired unit (months).
+
+In this case, our ratio comes out to:
+
+$$
+\frac{t}{m} = \frac{1}{12}
+$$
+
+Again, we want to replace $t$ with $m$, this can be done by isolating $t$ within the proportion, giving you:
+
+$$
+t = \frac{m}{12}
+$$
+
+So going back to our equation:
+
+$$
+y = 57(0.9)^t
+$$
+
+We can now substitute $t$ with a ratio that incorporates months rather than years:
+
+$$
+y = 57(0.9)^{\frac{m}{12}}
+$$
+
+Remember, the reason we can do this is because the exponent still equals one year, we’re just representing it as a fraction; we’re splitting up one year into 12 monthly segments.
+
+This means that inputting 12 months in our new equation will get us the exact same answer as inputting 1 year in our older one.
+
+$$
+\frac{12}{12} = 1
+$$
+
+Finally, input 20 in for $m$ to get a final answer.
+
+$$
+y = 57(0.9)^{\frac{20}{12}}
+$$
+
+$$
+y \approx 48
+$$
+
+## Common Problems Testing Exponential Growth and Decay
+
+#### Example 1
+
+This question is asking us what the number 5 here represents. Hopefully, you were able to notice that the equation given is the exponential growth formula:
+
+$$
+y = a(1 + r)^t
+$$
+
+In the equation above, 5 corresponds directly with $a$. We know that $a$ is the starting amount.
+
+The question tells us that the equation gives us the number of employees at a restaurant, meaning that 5 is the initial amount of employees the restaurant starts with. Going through all the answer choices and seeing which one matches up, answer choice A seems to be exactly what we’re looking for.
+
+**A is the answer.**
+
+#### Example 2
+
+Here, the equation gives us the population in $t$ years after the census, and they’re asking us to convert that to months.
+
+We could set up a ratio and solve for $t$ like we did previously in the lesson, this would get us:
+
+$$
+\frac{t \text{ year}}{m \text{ months}} = \frac{1}{12}
+$$
+
+**Giving us answer choice D.**
+
+Another way to solve is by plugging in an answer. I know that both equations should be completely equivalent other than the time exponent. This means that when I plug in 1 year in my original equation, I should get the exact same answer when I plug in 12 months in my new equation (1 year is equivalent to 12 months, so my population should be the same no matter what unit I use).
+
+If you plug in 1 into the original given equation, we get:
+
+$$
+p(1) = 90,000(1.06)^1
+$$
+
+$$
+p(1) = 95,400
+$$
+
+Now going down the answer choices, we can see which equation will give us the exact same answer if we plug in 12 months.
+
+If you substitute $m$ with 12 in the first three equations, you will get a different population. Again, this shouldn't happen because 12 months = 1 year. Putting in 12 in answer choice D gets you:
+
+$$
+r(m) = 90,000(1.06)^{\frac{12}{12}}
+$$
+
+$$
+r(m) = 90,000(1.06)^1
+$$
+
+$$
+r(m) = 95,400
+$$
+
+Meaning that answer choice D is our right answer.
+
+The way I showed it here may seem like it takes longer, but when done in your head, this question could be completed in less than 20 seconds.
+
+Simply plug in 12 into all equations and see which one gets you:
+
+$$
+p(1) = 90,000(1.06)^1
+$$
+
+There's no real need to compute what that expression actually equals.
+
+If you're having trouble understanding the "plugging in the answer" method, this video does a great job further explaining:
+
+#### Example 3
+
+The question gives us an equation that models the number of bacteria, and they want us to find out how long it will take for the number of bacteria to double.
+
+Firstly, recalling our growth equation, we know that 60,000 is the starting amount, meaning our answer will be whenever 60,000 is multiplied by 2.
+
+Since 2 is already our rate in the equation, we need the exponent to equal 1, since:
+
+$$
+60,000 \cdot (2)^1 = 60,000 \cdot 2 = 120,000
+$$
+
+Recall from the exponents lesson, any number to the power of 1 is itself.
+
+To make the exponent equal one, we need the numerator to equal the denominator. Our denominator is 410, meaning that $t$ must equal 410.
+
+So, it takes **410**minutes for our population of bacteria to double.
+
+## Exponential Functions
+
+While a VERY large majority of exponential relationship questions will end up being exponential growth/decay word problems (such as the ones seen above), it’s possible to be asked more mathematical questions. The one below is a great example, as it  tests you over everything when it comes to this unit.
+
+#### Example 1
+
+The only thing we’re given here is the $y$-intercept of a transformation of the original function $f(x)$. If you have forgotten the different ways a function can be transformed, check out our lesson on functions[here.](/topics/functions)
+
+The $y$-intercept of the graph of $y$, $-\frac{99}{7}$, is translated 15 units down when compared to the graph of the function $f(x)$. This means that if we want to find the $y$-intercept of $f(x)$, we basically have to undo the transformation.
+
+Since $y$ is equal to $ f(x) - 15 $, adding 15 will cancel that transformation and give us the original $y$-intercept of $f(x)$:
+
+$$
+-\frac{99}{7} + 15 = \frac{6}{7}
+$$
+
+So, $\frac{6}{7}$ is the $y$-intercept of $f(x)$.
+
+Using this information, we’re now able to actually find the value of $b$. Recall, the $y$-intercept is whenever $x$ is equal to zero. So, plugging in zero for our $x$ value, and $\frac{6}{7}$ for our $y$ value will give us the information we need:
+
+$$
+f(x) = -a^x + b
+$$
+
+$$
+\frac{6}{7} = -a^0 + b
+$$
+
+ANYTHING to the power of zero is equal to one. Though, since there is a negative out in front of the $a$, in this case, it'll equal $-1$.
+
+$$
+\frac{6}{7} = -1 + b
+$$
+
+$$
+\frac{13}{7} = b
+$$
+
+Look back at the question and read what it's actually asking, and what else we can find with the information we have.
+
+The question wants the value of $a$, it also gives us the product of $a$ and $b$.
+
+Since we already have the value of $b$, we can set up an equation to solve for $a$:
+
+$$
+ab = \frac{65}{7}
+$$
+
+$$
+a \left(\frac{13}{7}\right) = \frac{65}{7}
+$$
+
+$$
+a = 5
+$$
+
+Meaning the answer to this question is 5.
+
+There are two important things that are taught through this question. Firstly, in the exponential equation $ y = a^x + b $, unlike a linear equation, $b$ is NOT the $y$-intercept. For example, take the equation $ y = 14^x + 9 $:
+
+Many might automatically believe that 9 is the $y$-intercept. This may be due to the fact that in any linear equation in the form $ y = mx + b $, $b$ is in fact the $y$-intercept.
+
+But it's different with exponential equations. Again, the $y$-intercept is simply when $x$ is equal to zero. When you plug in zero into $x$ for the example equation you get:
+
+$$
+y = 14^x + 9
+$$
+
+$$
+y = 14^0 + 9
+$$
+
+$$
+y = 1 + 9
+$$
+
+$$
+y = 10
+$$
+
+Notice, the $y$-intercept, 10, is our $b$ value plus 1. This is because any number or constant to the power of one equals zero.
+
+In the question we just did above, the $y$-intercept is actually $b$ minus 1, this is because the $a$ value was negative rather than positive, so raising it to the power of zero resulted in -1 and not 1. Make sure to keep that in mind when dealing with these equations.
+
+The second thing, and this applies to all SAT questions, is to take your time with each step. In most cases in life, you want to think with the end in mind. Here though, that may prove to be a poor strategy.
+
+In any multi-step SAT problem, figuring out how to get to the final answer, in this case, $a$, may not be immediately apparent. The problem with many students is they try to find a direct and straightforward way to get their final answer before actually starting the question. But, especially when you don't know where to start, the best strategy is to just start solving.
+
+Start looking at what you can find with the information you're given. You might not get to your final answer in one, two, or even three steps, but any progress is good progress.
+
+With one piece of information, you can find the next piece, then the next, and then everything begins to become clearer and you have a way to find your answer.
+
+In the last question, there aren't any truly challenging calculations to be done or super advanced topics that are being tested. The only reason many might find it hard is because it isn't a one-step problem: you have to find the $y$-intercept, then the value of $b$, and then finally you can calculate $a$. Any one of these steps is pretty easy, and most students are able to do them. Sadly, many freeze up, can't find a way to instantly get the answer, and skip the question.
+
+***TLDR:*** If you don't know how to get to the final answer, just start solving for things you can find. Create a path for yourself.

@@ -1,0 +1,27 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2, .cls-3 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-3 {
+ &nbsp; &nbsp; &nbsp; &nbsp;stroke: currentColor;
+ &nbsp; &nbsp; &nbsp; &nbsp;stroke-miterlimit: 10;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<path class="cls-2" d="M806.63,413.77c-1.35.29-2.61.65-3.87,1.14-12.02,4.28-20.79,15.41-21.6,28.65-.04.65-.08,1.35-.08,2.04s.04,1.39.08,2.04h4.12c-.08-.69-.12-1.35-.12-2.04s.04-1.35.12-2.04c.77-11.37,8.27-20.95,18.59-24.74,1.22-.49,2.53-.86,3.87-1.14l-1.1-3.91Z"></path>
+ &nbsp; &nbsp;<path class="cls-2" d="M679.01,443.56c-.82-13.29-9.62-24.46-21.73-28.7-1.26-.45-2.53-.86-3.87-1.14l-1.14,3.91c1.34.29,2.65.65,3.87,1.14,10.39,3.71,17.98,13.33,18.75,24.78.08.69.12,1.35.12,2.04s-.04,1.35-.12,2.04h4.12c.04-.65.08-1.35.08-2.04s-.04-1.39-.08-2.04Z"></path>
+ &nbsp; &nbsp;<rect class="cls-2" x="681.93" y="295.41" width="4.07" height="38.06" transform="translate(193.19 885.25) rotate(-74)"></rect>
+ &nbsp; &nbsp;<rect class="cls-2" x="757.08" y="312.4" width="38.06" height="4.07" transform="translate(-56.59 225.98) rotate(-15.99)"></rect>
+ &nbsp; &nbsp;<path class="cls-3" d="M807.73,417.68l-1.1-3.91-65.67-228.06-1.14-3.95-9.82-34.12-9.82,34.12-1.14,3.95-65.63,228.02-1.14,3.91-8.64,30h172.74l-8.64-29.96ZM649.01,443.56l7.13-24.78,1.14-3.91,65.67-228.02,1.14-3.91,5.91-20.54,5.91,20.54,1.14,3.91,65.71,228.06,1.1,3.91,7.13,24.74h-161.98Z"></path>
+ &nbsp;</g>
+</svg>

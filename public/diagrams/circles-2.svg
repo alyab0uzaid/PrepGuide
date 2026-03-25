@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-112 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<path class="cls-112" d="M730,447.64c-82.71,0-150-67.29-150-150s67.29-150,150-150,150,67.29,150,150-67.29,150-150,150ZM730,153.64c-79.4,0-144,64.6-144,144s64.6,144,144,144,144-64.6,144-144-64.6-144-144-144Z"></path>
+ &nbsp; &nbsp;<rect class="cls-112" x="730" y="294.64" width="147" height="6"></rect>
+ &nbsp; &nbsp;<circle class="cls-112" cx="730" cy="297.64" r="15"></circle>
+ &nbsp; &nbsp;<path class="cls-112" d="M811.96,285.27h-15.87v-1.93c4.35-.41,4.76-.76,4.76-5.24v-14.35c0-4.55-.28-4.75-4.28-5.24v-1.73c3.38-.55,6.49-1.38,9.73-2.83v7.59c2.42-3.59,5.31-7.38,8.76-7.38,2.55,0,4,1.59,4,3.31,0,1.58-1.1,3.1-2.34,3.79-.69.41-1.25.35-1.79-.13-1.04-1.04-1.86-1.73-3.11-1.73-1.45,0-4,2.14-5.52,5.65v12.97c0,4.55.34,4.9,5.66,5.31v1.93h0Z"></path>
+ &nbsp;</g>
+</svg>

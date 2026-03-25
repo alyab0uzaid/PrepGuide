@@ -1,0 +1,551 @@
+---
+title: "Optimizing Desmos - Your Greatest Tool"
+slug: "optimizing-desmos---your-greatest-tool"
+order: 2
+---
+
+## Optimizing Desmos
+
+On the new SAT, the college board has blessed students with the seemingly all-powerful Desmos, yet such few people actually take advantage of it.
+
+Though, using Desmos for every question possible may not be the best choice either. There are many questions in which you can use Desmos, but probably shouldn't due to time restraints.
+
+Instead of organizing this page by starting with the easiest units, we’ve decided to organize it by starting with the most important (saves you a considerable amount of time and effort) and ending with the least important (questions that may be quicker and easier by hand). Firstly though, we’ll go over the bare basics of regression, an alternate strategy from using traditional graphing.
+
+## Basics of Regression
+
+If you’ve ever taken a stats class you’ve probably either used regression or at least became familiar with it. Regression is used to predict a function (line of best fit) based on given data. This is usually used to make predictions of the future based on a particular data set.
+
+While there won't be any questions that ask you to do that, you can use regression to ‘predict’ the solution to any equation. For example, let's look at the equation $\frac{33}{x} = \frac{15}{3}$.
+
+In this case, when the equation is graphed you are met with a line in which you can't select any coordinates. To get around this we can use regression.
+
+To solve any equation using regression, switch the equal sign to the regression operator ($\sim$), and the unknown to any variable that is not $x$ or $y$. Using $x_1$ or $y_1$ is usually the best choice in order not to get mixed up with variables.
+
+<Desmos id="jcofetl4ty" />
+
+You can ignore the statistics and residuals labels, all we’re worried about are the parameters, which gives us the correct solution: $x=6.6$.
+
+This can be done no matter the type of the equation (as long as there is one unknown). It can be rational, exponential, quadratic, or linear. Try finding a solution to the equation below using regression.
+
+$$
+x^3 + 2x^2 + 2 = 18
+$$
+
+Again, all you have to do is change $x$ to $x_1$ and the equal sign to the regression operator.
+
+<Desmos id="8ekgccitva" />
+
+$x$ is equal to 2.
+
+Below, we’ll review how to solve multiple equations graphically, but also introduce you on how to use regression in that specific unit.
+
+Note that there are near endless ways to use this feature, so we’ve only included it in units in which regression can actually save you time and effort and truly help you. In many units, while using regression is possible, it's usually completely unnecessary and difficult.
+
+## Systems of Equations
+
+### Solving Systems
+
+Graphing is usually the preferred (and quicker) method of solving systems of the SAT. We’ve gone over this before, but we can quickly review. Take a look at the question below.
+
+$$
+3x + 2y = 16
+$$
+
+$$
+5x - y = 18
+$$
+
+*The solution to the system of equations above is $(x, y)$. What is the value of $x$?*
+
+To solve by graphing, plot both lines and identify the intersection point.
+
+<Desmos id="dpinroskwa" />
+
+The intersection happens at (4, 2), meaning the $x$ value is 4.
+
+Systems can also be solved by regression. While graphing may be your best option in most cases, regression can help in a few others. The biggest reason you might want to use regression is if your solution set contains relatively large numbers. If the solution set to an equation is (5500, 10000) you’ll have to do some digging and zooming out on the graph just to find an answer, while solving using a regression will give you an answer immediately. Take a look at the example below.
+
+$$
+2y + 3x = 26,000
+$$
+
+$$
+7y + x = 34,000
+$$
+
+*What is the $(x, y)$ solution to the system of equations above?*
+
+In order to solve a system using regression, put the left side of both equations in a bracket on one side of the regression, and the right side on another (using $x_1$ and $y_1$, recall that using $x$ and $y$ will not give you a solution). Refer to the calculator below.
+
+<Desmos id="jqyzsjj7no" />
+
+This gives us a solution of (6000, 4000).
+
+Whether you use regression or graphing is completely up to you, as any system can be solved via both. Just always make sure that all coefficients and constants are entered correctly.
+
+### Number of Solutions
+
+If a problem asks you to identify how many solutions a system has, by far the easiest way is to graph the equations and simply look at them. For example, find the number of solutions to the system below:
+
+$$
+14x + 7y = 15
+$$
+
+$$
+y = -2x + 4
+$$
+
+<Desmos id="vhupxkjzdj" />
+
+The lines never intersect, meaning this system has no solutions.
+
+In other cases, the test may ask you to find a constant in which a system has no solution. Refer to the example below.
+
+$$
+18x - 2y = 14
+$$
+
+$$
+27x + ty = 23
+$$
+
+*In the system above, $t$ is a constant. For what value of $t$ will there be no solution to the system of equations?*
+
+When both equations are graphed you’ll be met with a slider in which you can manipulate the value of $t$. This means you can move this slider until you find a value of $t$ in which both lines do not intersect. However, we highly advise against this, especially in grid-in problems. The problem with this method is you’re going completely off how the graph ‘looks’. While two lines may appear to be parallel, it's very possible that they aren't.
+
+This issue becomes especially apparent when the answer to this type of problem is not an integer, making it nearly impossible to solve using the slider.
+
+The best way to use this feature is to instead initially solve mathematically, then plug in your answer for $t$. If you are correct, both lines should be truly parallel.
+
+## Quadratics
+
+### Solving Quadratics and Min & Max
+
+The solution to any quadratic equation (that equals zero) is where its line intersects the $x$-axis. Take a look at the equations below.
+
+<Desmos id="lcwlp3ecbh" />
+
+Desmos highlights three points on the parabola: The two $x$-intercepts and the vertex. In this case, the two intercepts are -4 and 1, meaning those are the solutions, and the vertex is at (-1.5, -18.75), meaning that is our minimum.
+
+Is using regression an option in this case? Well….. kinda. The issue with using regression to solve a quadratic is that you'll only be given one solution for each unknown, while many quadratics will have two. There is a way to get around this but it requires you to write multiple different functions which only increases the room for error. In this case, simply stick to graphing.
+
+### Number of Solutions
+
+One of the most common questions asked with respect to this unit is the “number of solutions” question. Mathematically it’s solved using the discriminant, but can be easily done by simply graphing the equation. Remember that the solutions to any quadratic equation are where its graph crosses the $x$-axis. So, the number of times a quadratic equation graph crosses the $x$-axis is the number of solutions it has. Take a look at the example below.
+
+<Desmos id="dhdghbsoj0" />
+
+The graph of the quadratic only touches the $x$-axis once, meaning that there is one solution. Some questions may ask you to manipulate a constant like the example below.
+
+$$
+x^2 + bx + 8
+$$
+
+*In the given equation, $b$ is a constant. For which of the following values of $b$ will the equation have one real solution?*
+
+*A) 8*
+
+*B) 0*
+
+*C) 6*
+
+*D) -8*
+
+When inputting an equation involving a constant into Desmos, an option to insert a slider will appear. You can then use the slider to change the value of $b$. To solve this question, change the slider to each value given in the answer choices until the graph touches the $x$-axis once.
+
+<Desmos id="tl7h8rnvfx" />
+
+Scrolling to 6, you'll see that the graph only touches the $x$-axis once, **making C** the correct choice.
+
+The only issue with this method arises in the case of student response questions. While in some cases using a slider works, in others it might be incredibly inefficient. If the answer to a discriminant question is a non-integer, you'll end up having to mess with the step and range of the slider. By the time you’ve found the right settings, you probably would have already been able to answer the question using the discriminant.
+
+While this is an incredibly powerful tool to have, it is not a replacement for understanding the mathematical concept itself.
+
+### Quadratic regression
+
+These types of questions are pretty rare, but regression can help you if something like this shows up
+
+<Figure src="/diagrams/optimizing-desmos---your-greatest-tool-1.svg" />
+
+*Which of the following could be an equation to the graph above?*
+
+*A) $x^2 - x + 1$*
+
+*B) $\frac{1}{2} x^2 + \frac{1}{2} x + 1$*
+
+*C) $\frac{1}{2} x^2 - \frac{1}{2} x + 1$*
+
+*D) $2x^2 - 2x - 1$*
+
+Firstly, choose 3 points on the graph and input them into a table $(+ \rightarrow \text{table})$
+
+(1, 1), (2, 2), and (3, 4) all show up on the graph, so these will be the values we use.
+
+<Desmos id="v7c8tdesd3" />
+
+Since all of our answer choices are in standard form, we will insert the standard form equation using a regression operator (make sure to use $x_1$ and $y_ 1$)
+
+<Desmos id="3vr66f18qx" />
+
+Replace a, b, and c with the given values given in the parameters to get $\frac{1}{2} x^2 - \frac{1}{2} x + 1$, or answer**choice C**.
+
+The exact same strategy works when given a table. Rather than finding the points on the graph, the points are directly given to you.
+
+## Exponential Graphs
+
+Regression is usually the only efficient use of desmos within this topic. Refer to the question below.
+
+$$
+\begin{array}{|c|c|}\hline x & f(x) \\\hline0 & 9 \\\hline1 & 12 \\\hline2 & 16 \\\hline\end{array}
+$$
+
+*For the exponential function $f$, the table shows some values of $x$ and the corresponding values of $f(x)$. The function can be written in the form $f(x) = pr^x$, where $p$ and $r$ are constants. What is the value of $r$?*
+
+This can be solved algebraically, but lets use regression. Just like the last example, input all points into a table.
+
+NOTE: $f(x)$ and $y$ are interchangeable
+
+<Desmos id="ejnwtqpvwa" />
+
+Next, input the form you want you're equation to show up in (using the regression opperator). In this case, the question asks us to use $f(x) = pr^x$. Though, we will replace $f(x)$ with $y_1$ as that is the variable our table uses.
+
+<Desmos id="ievpa4craz" />
+
+This gives us**r =1.333 or $\frac{4}{3}$**
+
+## Finding Equivalent Expressions
+
+We didn't put this in a specific unit as it could be tested under quadratics, linear relationships, and exponential equations.
+
+One of the common questions asked on the SAT involves a given expression and 4 answer choices. You then have to choose which one of the four answer choices is equivalent to the given expression. Take a look at the example below.
+
+*Which expression is equal to $3x^2 + 18x + 15$?*
+
+A) $3(x-5)(x-1)$
+
+B) $3(x+5)(x+1)$
+
+C) $(3x+5)(x+1)$
+
+D) $(3x-5)(x-1)$
+
+The mathematical way to solve this would be factoring, but using Desmos can definitely save effort especially if you aren't comfortable with factoring. Plug in each of the five (given expression + 4 answer choices) expressions and the one that lines up with the given expression will be your answer.
+
+<Desmos id="da88ogybl2" />
+
+The original expression’s graph (green) and answer choice B’s graph (red) line up perfectly, meaning **B** is the correct choice.
+
+Constants can also be introduced in this question type. The question below is one of the possible ways it may be asked.
+
+*The expression $\frac{3x + 8}{8}$ is equivalent to $\frac{ax + 16}{3} + \frac{8}{3}$, where $a$ is a constant. What is the value of $a$?*
+
+*A) 0*
+
+*B) 2*
+
+*C) 3*
+
+*D) 5*
+
+When inputting two expressions with the exact same constant, you can use a single slider to manipulate both equations. You can now move the slider to each of the answer choices until the graphs of both expressions line up.
+
+<Desmos id="dyd84hamnu" />
+
+When the slider is set to choices A, B and D the graphs only intersect at one point. At 3 though, the graphs perfectly line up, meaning **choice C** is the correct answer.
+
+This strategy can be used for almost any question involving two equivalent expressions, but before turning to graphing, take a few seconds to see if you can solve it quickly mathematically. Inputting 5 different expressions can take a bit of time.
+
+## Linear Inequalities
+
+### Single Variable Inequalities
+
+While many of these inequalities can be solved quickly algebraically, you may find it easier (and in some cases quicker) to solve by graphing.
+
+$$
+4x + 3 \geq 6(x + 1)
+$$
+
+*Which of the following is a solution to the linear inequality above?*
+
+*A) 6*
+
+*B) 2*
+
+*C) 0*
+
+*D) -3*
+
+The first step is to input the inequality as it shows up in the problem.
+
+<Desmos id="yomsrt1owr" />
+
+NOTE: since $x$ is the only variable in the inequality, you don't have to worry about the $y$-values.
+
+Recall that anything within the shaded region is a solution to an the inequality. The first three answer choices all fall outside of the shaded region, while -3 is the only one inside it, making**choice D** the correct answer.
+
+### Multi-Variable Inequalities
+
+The exact same strategy as before can be employed here. Though, rather than only worrying about the $x$-value, you have to look at both the $x$ and $y$ values.
+
+$$
+5y + 3x > 10x - 2
+$$
+
+*Which of the following points $(x, y)$ is a solution to the linear inequality above?*
+
+*A) (2, -2)*
+
+*B) (6, 8)*
+
+*C) (0, 5)*
+
+*D) (7, 0)*
+
+Plug in the inequality as it shows up in the question.
+
+<Desmos id="okto8wuxr8" />
+
+A and D both lie outside of the shaded region and B lies directly on the line. Since the line is dotted that means that B is NOT a solution. This leaves answer **choice C**as the right answer.
+
+### Systems of Inequalities
+
+The solution set of a system of linear inequalities is where the shaded regions overlap. Knowing this, you can graph both inequalities and find your solutions within the double-shaded region.
+
+$$
+y \geq \frac{4}{5}x + 2
+$$
+
+$$
+3x + 2y < 21
+$$
+
+*Which of the following points $(x, y)$ is a solution to the system of inequalities above?*
+
+*A) (0, 0)*
+
+*B) (5, 10)*
+
+*C) (6, 4)*
+
+*D) (-2, 7)*
+
+The graph of the system is shown below.
+
+<Desmos id="tbakvforpl" />
+
+The first 3 answer choices either lie in a singular shaded region or in no shaded region at all. Answer choice D, (-2, 7), is the only point that lies in the overlapping shaded region, making **choice D** the correct answer.
+
+## Linear Relationships - Find Everything from Two Points
+
+### Finding the Slope and Y-Intercept
+
+You are almost guaranteed to be asked a question about a linear line, whether it's finding the slope, $x$ intercept, or $y$-intercept. These questions will supply you with two or more points and you’re required to find information based off of them. This is all easily done through a regression.
+
+*The graph of line $l$ in the $xy$-plane passes through the points (2, 10) and (-3, -5), with a slope of $m$. What is the value of $m$?*
+
+The first step in this case is to create a table and input your values. This is done by clicking the plus in the top right corner and selecting ‘table’. Plug in both $x$ values in the $x_1$ column, and their respective $y$ values in the $y_1$ column.
+
+<Desmos id="2ns8impi0g" />
+
+You can now input the regression $y_1 \sim mx_1 + b$, where $m$ is the slope and $b$ is the $y$-intercept. Make sure you are using $x_1$ and $y_1$ and NOT $x$ and $y$. Doing this will give you the values of $m$ and $b$ while also graphing the line.
+
+<Desmos id="owek98r0i6" />
+
+In this case $m$ is equal to 3 and $b$ is equal to 4. Meaning our slope (or the value of $m$) is**equal to 3**.
+
+Some questions may ask you to find the $x$-intercept. While it's not directly given in the parameters it can be found by analyzing its graph.
+
+### Finding the X-Intercept
+
+$$
+\begin{array}{|c|c|}
+\hline
+\text{x} & \text{y} \\
+\hline
+0 & 4 \\
+\hline
+3 & 6 \\
+\hline
+6 & 8  \\
+\hline
+\end{array}
+$$
+
+*The table above shows some value of a line. The line intersects the x-axis at $(q, 0)$. What is the value of $q$?*
+
+The process is the same here. Insert the table with the values shown above and the regression.
+
+<Desmos id="netfcyttoe" />
+
+Since we’re looking for the $x$-intercept, we don't have to worry about the parameters. Simply navigate your way to the graph and see where it crosses the $x$-axis. This happens at (-6, 0) meaning the value of $q$ is equal to -**6**.
+
+## Functions
+
+We can use the regression feature on function questions using constants as long as we have one point of the graph. Look at the example below.
+
+$$
+f(x) = x^2 + 4x + n
+$$
+
+*In the function above $n$ is a constant and $f(-2) = -1$. What is the value of $f(-4)$?*
+
+The first step is to input the given function. In this case, there is no reason to add the slider.
+
+<Desmos id="h4l45jkfl7" />
+
+We can now tell Desmos that $f(-2)$ is equal to -1 by using the regression operator. This will then give us the value of $n$.
+
+<Desmos id="gtv1nzuz1b" />
+
+All that's left to do is to ask Desmos what $f(-4)$ equals. This is done by simply typing in $f(-4)$ into a new line.
+
+<Desmos id="miuxbcp2hu" />
+
+Giving us an **answer of 3**.
+
+This feature can be used on much simpler questions too, where you are given a full function and asked to evaluate a certain value.
+
+$$
+g(x) = x^3 + 2x^2 + 22
+$$
+
+*The function $g$ is defined above. What is the value of $g(-4)$?*
+
+Input both the function and what the question is asking, ‘$g(-4)$’.
+
+<Desmos id="ytnbmbhemd" />
+
+This gives us an**answer of -26**.
+
+## Statistics
+
+### Finding and Using Mean and Median
+
+Finding mean through Desmos is incredibly simple using the mean() function. All you really have to do is input your data within the parentheses and you’ll be met with an answer
+
+$$
+4, 5, 5, 7, 9, 12, 14
+$$
+
+*What is the average (arithmetic mean) of the data set above?*
+
+Type out the mean function and input all your data separated by commas.
+
+<Desmos id="mbwhca6qxa" />
+
+This gives us an answer of 8.
+
+In some other cases, you may be given a mean and asked to find a missing number in a data set. This can definitely be done easily by hand, but you can use the Desmos regression feature too. Take a look at the example below.
+
+$$
+25, 50, 55, 70, 15, x
+$$
+
+*The mean of the data set above is equal to 44. What is the value of $x$?*
+
+All we have to do in this case is set up a regression using the mean function. We’ll set up the mean function on the left side of the regression (using $x_1$ as our unknown), and the given mean on the right side. This will give us the value of $x$.
+
+<Desmos id="tocy9mf9vk" />
+
+The value of $x$ in this case is**49**.
+
+The median function is used in the exact same way. Simply plug in each given value in a data set and Desmos will spit back the median. This is especially useful when the data given is not in chronological order (if it is, it’d be much quicker to find the median by hand).
+
+$$
+45, 87, 22, 94, 102, 64, 55
+$$
+
+*What is the median of the data set above?*
+
+<Desmos id="sxkohhgksf" />
+
+The median of the data set above is 64.
+
+## Percentages
+
+### Percentage Function
+
+The percentage function is quite handy and can save you a couple of seconds. You can figure out the percent of anything by simply typing it out. Refer to the example below.
+
+*60% of Mrs. Taylor's class hates vegetables. If there are 30 students in her class, how many students DON’T hate vegetables?*
+
+A) 12
+
+B) 18
+
+C) 14
+
+D) 10
+
+Since 60% of students hate vegetables, then we can assume that 40% of students don’t hate vegetables. So, 40% of 30 students will be the number of students who don’t hate vegetables. This can be typed out into Desmos within seconds.
+
+<Desmos id="a8hzketrd7" />
+
+Making the answer to the problem**choice A.**
+
+In other cases, instead of being given a percentage and a ‘whole’, you’ll be given a percentage and a part, and you’ll be tasked to find the whole.
+
+*12% of Juniors at Center Point High School join the National Honors Society. If 21 juniors are members of the National Honors Society, how many juniors are enrolled at Center Point High School*
+
+This question is basically telling us that 12 percent of the whole (all juniors) is equal to 21. This can be written mathematically as $12\% \cdot w = 21$. While you can solve this algebraically, Desmos also provides a way to solve this using a regression.
+
+<Desmos id="lrxjrohrhf" />
+
+This tells us that the whole $w$ is equal to 175, or that there are**175 juniors enrolled**.
+
+## Circles
+
+### Finding the Center
+
+While this method does require you to do some algebra, it can still save you quite a bit of time. On the test, you may be given a circle in non-standard form. This means that the center and radius don't show up in the equation directly as a constant. While you could convert your equation to standard form and find them that way, using Desmos may prove to be quicker and easier.
+
+$$
+x^2 + y^2 - 6x + 8y = -9
+$$
+
+*The equation of a circle is shown above. What is the $y$-value of the center of the circle?*
+
+Currently, there is no direct function to find the center and radius of a circle, but Desmos does highlight a few important points for us that we can use. Refer to the graph below.
+
+<Desmos id="kxhagjaryd" />
+
+If you click on the circle, Desmos will highlight the very top and bottom points of the circle. In this case, these points are (3 , 0) and (3, -8). The $x$-value of the center will be the given $x$-value of these two points. So, the $x$-value of the center is going to be **3**.
+
+The $y$-value of the center is going to be in between the two $y$-values given in the points. In other words, it will be the average between the $y$-value of the lowest and highest point of the circle.
+
+$$
+0 + (-8) / 2 = y
+$$
+
+$$
+y = -4
+$$
+
+Making the center of this circle **(3, -4)**, and the answer to this question**-4**. You can verify by inputting the point into Desmos and seeing if it truly lies in the center.
+
+<Desmos id="wanec6x5zx" />
+
+### Finding the Radius
+
+$$
+x^2 + y^2 - 6x + 8y = -9
+$$
+
+*The equation of a circle is shown above. What is the radius of the circle?*
+
+We’ll use the same equation here for finding the radius. The distance between the highest point and lowest point of a circle will be a diameter (double the radius). Finding the diameter then dividing that number by 2 will give us our radius.
+
+In order to find the diameter, subtract the $y$-values of the highest and lowest points from each other or use the distance function.
+
+<Desmos id="layisjlznz" />
+
+The diameter in this case is 8 units, meaning the radius is 4.
+
+## Final Message
+
+Desmos is NOT an excuse to not learn the mathematical concepts of each unit. It is simply a tool that can save you some time and effort. Not understanding how to do each of the equations algebraically will make it harder to be able to use Desmos as efficiently as possible, as memorizing every single function we went over without understanding what it's doing behind the scenes will prove to be quite challenging.
+
+Don’t necessarily feel that you are required to use Desmos. Over half of the things we went over can be done just as quickly by hand, and if you are already familiar with those methods it can sometimes be even quicker. Don't force yourself to memorize how to do things with Desmos if you can do it just as quickly and easily algebraically.
+
+Always remember: practice, practice, practice. It's impossible to remember everything we just went over by reading this course once. Every practice test and practice problem you do, make sure to have Desmos open to the side. Practicing using your graphing calculator is sometimes just as important as practicing the unit itself. If you don't practice using Desmos, you won't be efficient at using Desmos.

@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<path class="cls-2" d="M278.98,418.98l-30.68-172.68,122.9-70.02,41.92,129.84-134.14,112.85ZM253.93,248.95l28.51,160.49,124.79-104.99-38.95-120.65-114.35,65.15Z"></path>
+ &nbsp; &nbsp;<path class="cls-2" d="M685.19,411.52l-234.93-43.4,30.27-163.85,234.93,43.4-30.27,163.85ZM456.18,364.04l224.94,41.56,28.42-153.86-224.94-41.56-28.42,153.86Z"></path>
+ &nbsp; &nbsp;<path class="cls-2" d="M962.62,388.55l42.92-110.96,152.41-7.6,53.75,106.14-249.08,12.42ZM1009.09,282.5l-38.91,100.59,233.45-11.64-48.73-96.21-145.82,7.27Z"></path>
+ &nbsp; &nbsp;<path class="cls-2" d="M883.57,395.98h-125.63l40.89-84.31-41.8-49.14,60.01-61.43,95.96,55.4-29.43,139.47ZM766.05,390.9h113.4l27.82-131.83-89.36-51.59-54.01,55.29,40.95,48.13-38.79,80Z"></path>
+ &nbsp;</g>
+</svg>

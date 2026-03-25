@@ -1,0 +1,41 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-3 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="456.67" y="208.25" width="546.67" height="5.08"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="1024.85 210.79 994.53 198.39 1001.72 210.79 994.53 223.17 1024.85 210.79"></polygon>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="435.15 210.79 465.47 198.39 458.28 210.79 465.47 223.17 435.15 210.79"></polygon>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="456.67" y="381.95" width="546.67" height="5.08"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="1024.85 384.49 994.53 372.1 1001.72 384.49 994.53 396.88 1024.85 384.49"></polygon>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="435.15 384.49 465.47 372.1 458.28 384.49 465.47 396.88 435.15 384.49"></polygon>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<line class="cls-3" x1="869.11" y1="88.73" x2="590.89" y2="506.54"></line>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="479.02" y="295.1" width="501.96" height="5.08" transform="translate(77.6 740.2) rotate(-56.33)"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="881.04 70.82 853.91 89.19 868.22 90.07 874.54 102.93 881.04 70.82"></polygon>
+ &nbsp; &nbsp; &nbsp; &nbsp;<polygon class="cls-2" points="578.96 524.45 585.46 492.35 591.78 505.2 606.08 506.08 578.96 524.45"></polygon>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;</g>
+ &nbsp;</g>
+</svg>

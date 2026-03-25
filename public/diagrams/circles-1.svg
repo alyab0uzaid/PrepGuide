@@ -1,0 +1,26 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-3 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<path class="cls-3" d="M730,447.64c-82.71,0-150-67.29-150-150s67.29-150,150-150,150,67.29,150,150-67.29,150-150,150ZM730,153.64c-79.4,0-144,64.6-144,144s64.6,144,144,144,144-64.6,144-144-64.6-144-144-144Z"></path>
+ &nbsp; &nbsp;<rect class="cls-3" x="730" y="294.64" width="147" height="6"></rect>
+ &nbsp; &nbsp;<rect class="cls-3" x="583" y="294.64" width="147" height="6"></rect>
+ &nbsp; &nbsp;<circle class="cls-3" cx="730" cy="297.64" r="15"></circle>
+ &nbsp; &nbsp;<path class="cls-2" d="M676.47,280.98c-1.4.27-6.39,1.06-10.31,2.46v-4.32c-1.2.73-2.93,1.66-4.12,2.39-2.66,1.53-4.46,1.93-5.25,1.93-5.32,0-12.37-5.32-12.37-14.63s8.12-16.16,17.23-16.16c.93,0,3.13.13,4.52.73v-9.78c0-4.26-.47-4.39-5.19-4.79v-1.73c3.33-.47,7.98-1.4,10.44-2.26v40.11c0,3.46.46,3.92,2.93,4.06l2.13.13v1.86ZM666.17,258.63c-1.53-2.33-4.39-3.39-6.98-3.39-3.19,0-8.85,2.13-8.85,11.71,0,8.05,4.99,12.31,9.25,12.37,2.39,0,4.99-1.2,6.58-2.39v-18.29Z"></path>
+ &nbsp;</g>
+</svg>

@@ -1,0 +1,47 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<rect class="cls-2" x="281.51" y="296.08" width="29.16" height="3.12"></rect>
+ &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp;<path class="cls-2" d="M1178.49,403.3h-264.46l132.23-229.03,132.23,229.03ZM924.85,397.05h242.82l-121.41-210.29-121.41,210.29Z"></path>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="1044.7" y="385.6" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="1105.88" y="307.91" width="29.16" height="3.12" transform="translate(-4.51 602.14) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="970.48" y="294.89" width="3.12" height="29.16" transform="translate(218.01 996.54) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp;<path class="cls-2" d="M520.06,411.18h-227.09v-227.09h227.09v227.09ZM299.21,404.94h214.6v-214.6h-214.6v214.6Z"></path>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="404.95" y="172.64" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="404.95" y="393.48" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="502.35" y="296.08" width="29.16" height="3.12"></rect>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="626.22" y="230.38" width="3.12" height="29.16" transform="translate(101.75 666.14) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="621.9" y="237.85" width="3.12" height="29.16" transform="translate(93.11 666.14) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="611.04" y="339.51" width="29.16" height="3.12" transform="translate(-86.71 358.79) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="615.35" y="346.99" width="29.16" height="3.12" transform="translate(-89.87 361.95) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp; &nbsp;<path class="cls-2" d="M791.94,410.89h-131.11l-65.55-113.54,65.55-113.54h131.11l65.55,113.54-65.55,113.54ZM664.43,404.64h123.9l61.95-107.3-61.95-107.3h-123.9l-61.95,107.3,61.95,107.3Z"></path>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="720.51" y="172.93" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="729.14" y="172.93" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="716.19" y="393.18" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="724.82" y="393.18" width="3.12" height="29.16"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="806.92" y="239.66" width="29.16" height="3.12" transform="translate(-10.47 443.4) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="811.24" y="247.13" width="29.16" height="3.12" transform="translate(-13.63 446.56) rotate(-30.02)"></rect>
+ &nbsp; &nbsp; &nbsp;<g>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="828.53" y="323.57" width="3.12" height="29.16" transform="translate(122.2 887.94) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp; &nbsp;<rect class="cls-2" x="824.21" y="331.04" width="3.12" height="29.16" transform="translate(113.56 887.94) rotate(-60)"></rect>
+ &nbsp; &nbsp; &nbsp;</g>
+ &nbsp; &nbsp;</g>
+ &nbsp;</g>
+</svg>

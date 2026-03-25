@@ -1,0 +1,19 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 595.28">
+ &nbsp;<defs>
+ &nbsp; &nbsp;<style>
+ &nbsp; &nbsp; &nbsp;.cls-1 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: none;
+ &nbsp; &nbsp; &nbsp;}
+
+ &nbsp; &nbsp; &nbsp;.cls-2 {
+ &nbsp; &nbsp; &nbsp; &nbsp;fill: currentColor;
+ &nbsp; &nbsp; &nbsp;}
+ &nbsp; &nbsp;</style>
+ &nbsp;</defs>
+ &nbsp;<rect class="cls-1" width="1460" height="595.28"></rect>
+ &nbsp;<g>
+ &nbsp; &nbsp;<path class="cls-2" d="M730,447.64c-82.71,0-150-67.29-150-150s67.29-150,150-150,150,67.29,150,150-67.29,150-150,150ZM730,153.64c-79.4,0-144,64.6-144,144s64.6,144,144,144,144-64.6,144-144-64.6-144-144-144Z"></path>
+ &nbsp; &nbsp;<path class="cls-2" d="M829,198.64v198h-198v-198h198M835,192.64h-210v210h210v-210h0Z"></path>
+ &nbsp;</g>
+</svg>
