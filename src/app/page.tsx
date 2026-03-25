@@ -7,7 +7,7 @@ const AREA_ORDER = [
   "Advanced Math",
   "Problem Solving and Data Analysis",
   "Additional Topics in Math",
-];
+]; // must match normalised area names from generate-content.ts AREA_DISPLAY
 
 export default async function HomePage() {
   const topics = getAllTopics();

@@ -7,7 +7,18 @@ import * as fs from "fs";
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const cheerio = require("cheerio");
 
-// ─── Area slug map ────────────────────────────────────────────────────────────
+// ─── Area normalisation (CSV name → display name) ─────────────────────────────
+const AREA_DISPLAY: Record<string, string> = {
+  "Heart of Algebra": "Algebra",
+  "Passport to Advanced Math": "Advanced Math",
+  "Problem Solving and Data Analysis": "Problem Solving and Data Analysis",
+  "Additional Topics in Math": "Additional Topics in Math",
+  // legacy / already-normalised names pass through unchanged
+  "Algebra": "Algebra",
+  "Advanced Math": "Advanced Math",
+};
+
+// ─── Area slug map (keyed on display name) ────────────────────────────────────
 const AREA_DIR: Record<string, string> = {
   "Algebra": "algebra",
   "Advanced Math": "advanced-math",
@@ -282,7 +293,7 @@ function generateTopics(subtopicMap: Record<string, string[]>) {
 
     const name = r["Topic Name"];
     const slug = r["Slug"];
-    const area = r["Main Area"] || "Additional Topics in Math";
+    const area = AREA_DISPLAY[r["Main Area"]] || r["Main Area"] || "Additional Topics in Math";
     const order = r["Order"] || "";
     const video = r["Video"] || "";
     const practiceSheet = r["Practice Problems Sheet"] || "";
